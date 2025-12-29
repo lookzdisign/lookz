@@ -10,7 +10,7 @@ const projects = [
     {
         "id": 2,
         "title": "Teen Titan Go",
-        "image": "/Users/augustin/Desktop/minias/Teen_titan_go.png",
+        "image": "minias/Teen_titan_go.png",
         "alt": "Teen Titan Go Thumbnail",
         "link": "https://youtube.com",
         "views": "N/A"
