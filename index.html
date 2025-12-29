@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lookz | High-End Thumbnail Designer</title>
+    <meta name="description" content="Portfolio de Lookz, créateur de miniatures YouTube premium.">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="preload" href="fonts/MangoGrotesque-VF.ttf" as="font" type="font/truetype" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@500;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo_l.png" alt="Lookz Logo" style="height: 60px;">
+            <span>Lookz</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Miniatures d'impact">Miniatures d'impact</h1>
+                <p>Je transforme votre contenu en clics. Expertise premium pour YouTube.</p>
+                <div class="hero-cta">
+                    <a href="#work" class="btn primary">Voir mes travaux</a>
+                    <a href="#contact" class="btn secondary">Me contacter</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Mes Créations</h2>
+                </div>
+                <div class="gallery" id="gallery">
+                    <!-- Images will be injected here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="transformation" class="transformation">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Avant / Après</h2>
+                </div>
+                <div class="ba-slider" id="ba-container">
+                    <div class="ba-image-before">
+                        <img src="/Users/augustin/Desktop/minias/avant.png" alt="Before" loading="lazy"
+                            decoding="async">
+                    </div>
+                    <div class="ba-image-after">
+                        <img src="/Users/augustin/Desktop/minias/apres.png" alt="After" loading="lazy" decoding="async">
+                    </div>
+                    <div class="ba-handle"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-card">
+                    <h2>Prêt à booster vos vues ?</h2>
+                    <p>Contactez-moi pour discuter de votre prochain projet.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/lookz_wh/" target="_blank" class="social-btn instagram"><i
+                                class="fab fa-instagram"></i> Instagram</a>
+                        <a href="mailto:lookzpromail@gmail.com" class="social-btn email"><i class="fas fa-envelope"></i>
+                            Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="toast" class="toast">Email copié !</div>
+
+    <footer>
+        <p>&copy; 2025 Lookz. Tous droits réservés.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
