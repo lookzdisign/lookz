@@ -7,6 +7,14 @@ const projects = [
         "link": "https://youtube.com",
         "views": "N/A"
     },
+     {
+        "id": 2,
+        "title": "jojo",
+        "image": "images/gallery/jojo part 1-3",
+        "alt": "jojo Thumbnail",
+        "link": "https://youtube.com",
+        "views": "N/A"
+    },
     {
         "id": 4,
         "title": "Teen Titan Go",
