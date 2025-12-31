@@ -95,8 +95,16 @@ const projects = [
         "link": "https://youtube.com",
         "views": "N/A"
     },
-    {
+     {
         "id": 13,
+        "title": "zelda",
+        "image": "images/gallery/zelda.png",
+        "alt": "zelda Thumbnail",
+        "link": "https://youtube.com",
+        "views": "N/A"
+    },
+    {
+        "id": 14,
         "title": "Img 2582",
         "image": "images/gallery/IMG_2582.png",
         "alt": "Img 2582 Thumbnail",
