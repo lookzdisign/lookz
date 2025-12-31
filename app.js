@@ -10,7 +10,7 @@ const projects = [
      {
         "id": 2,
         "title": "jojo",
-        "image": "images/gallery/jojo.png",
+        "image": "images/gallery/jojo part 1-3.png",
         "alt": "jojo Thumbnail",
         "link": "https://youtube.com",
         "views": "N/A"
