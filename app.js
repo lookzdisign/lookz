@@ -110,7 +110,56 @@ const projects = [
         "alt": "Img 2582 Thumbnail",
         "link": "https://youtube.com",
         "views": "N/A"
+    },
+      {
+        "id": 15,
+        "title": "Persona 5",
+        "image": "images/gallery/minia P5 V2.png",
+        "alt": "Img 2582 Thumbnail",
+        "link": "https://youtube.com",
+        "views": "N/A"
+    },
+     {
+        "id": 16,
+        "title": "Elden ring",
+        "image": "images/gallery/FORCE ONLY.png",
+        "alt": "Img 2582 Thumbnail",
+        "link": "https://youtube.com",
+        "views": "N/A"
+    },
+     {
+        "id": 17,
+        "title": "NO HIT",
+        "image": "images/gallery/DA trainging.png",
+        "alt": "Img 2582 Thumbnail",
+        "link": "https://youtube.com",
+        "views": "N/A"
+    },
+     {
+        "id": 18,
+        "title": "Link",
+        "image": "images/gallery/link dead.png",
+        "alt": "Img 2582 Thumbnail",
+        "link": "https://youtube.com",
+        "views": "N/A"
+    },
+     {
+        "id": 19,
+        "title": "nigthreign",
+        "image": "images/gallery/nigthreign.png",
+        "alt": "Img 2582 Thumbnail",
+        "link": "https://youtube.com",
+        "views": "N/A"
+    },
+     {
+        "id": 20,
+        "title": "Myazaki",
+        "image": "images/gallery/minia myazaki.png",
+        "alt": "Img 2582 Thumbnail",
+        "link": "https://youtube.com",
+        "views": "N/A"
     }
+    
 ];
 
 function renderGallery() {
